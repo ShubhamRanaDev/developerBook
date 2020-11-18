@@ -11,12 +11,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="650836bc-7f0b-4c69-a686-002711a7b2a7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/devconnector.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/db.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/default.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middleware/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/Profile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/User.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/api/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/api/posts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/api/profile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/api/users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +62,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604641928341</updated>
-      <workItem from="1604641929557" duration="613000" />
+      <workItem from="1604641929557" duration="2815000" />
+      <workItem from="1604711646752" duration="2204000" />
+      <workItem from="1605074980083" duration="621000" />
+      <workItem from="1605118111289" duration="3508000" />
+      <workItem from="1605288441413" duration="7662000" />
+      <workItem from="1605386228997" duration="673000" />
+      <workItem from="1605401851294" duration="11278000" />
+      <workItem from="1605579842192" duration="2757000" />
+      <workItem from="1605637274952" duration="590000" />
     </task>
     <servers />
   </component>
@@ -74,8 +87,15 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1605292305585">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605292305585" />
   </component>
 </project>
