@@ -10,18 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="650836bc-7f0b-4c69-a686-002711a7b2a7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config/db.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/default.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middleware/auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/Profile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/User.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/api/auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/api/posts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/api/profile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/api/users.js" afterDir="false" />
+    <list default="true" id="650836bc-7f0b-4c69-a686-002711a7b2a7" name="Default Changelist" comment="add &amp; update added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/db.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api/profile.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +30,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/server.js" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="ProjectId" id="1ju7474I9vEPFyIpbwzIge3Bar3" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -50,7 +45,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../quiz" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -71,7 +66,34 @@
       <workItem from="1605401851294" duration="11278000" />
       <workItem from="1605579842192" duration="2757000" />
       <workItem from="1605637274952" duration="590000" />
+      <workItem from="1605672904154" duration="260000" />
+      <workItem from="1605824401186" duration="1177000" />
+      <workItem from="1605907981706" duration="1907000" />
+      <workItem from="1605992861314" duration="980000" />
+      <workItem from="1607327913276" duration="781000" />
+      <workItem from="1607407591555" duration="31000" />
+      <workItem from="1607408140146" duration="982000" />
+      <workItem from="1607459433577" duration="34000" />
+      <workItem from="1607459574677" duration="535000" />
+      <workItem from="1607460235088" duration="3605000" />
+      <workItem from="1607496775255" duration="1393000" />
+      <workItem from="1607668563336" duration="682000" />
+      <workItem from="1607678527322" duration="714000" />
+      <workItem from="1607719830128" duration="3940000" />
+      <workItem from="1608760946446" duration="23000" />
+      <workItem from="1609213636800" duration="2271000" />
+      <workItem from="1609300786382" duration="179000" />
+      <workItem from="1609301080011" duration="2195000" />
+      <workItem from="1609447768346" duration="3509000" />
     </task>
+    <task id="LOCAL-00001" summary="add &amp; update added">
+      <created>1605672988086</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605672988086</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,11 +113,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1605292305585">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605292305585" />
+    <MESSAGE value="add &amp; update added" />
+    <option name="LAST_COMMIT_MESSAGE" value="add &amp; update added" />
   </component>
 </project>
