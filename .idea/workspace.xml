@@ -10,10 +10,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="650836bc-7f0b-4c69-a686-002711a7b2a7" name="Default Changelist" comment="profile api done">
+    <list default="true" id="650836bc-7f0b-4c69-a686-002711a7b2a7" name="Default Changelist" comment="github profile search">
+      <change afterPath="$PROJECT_DIR$/models/Post.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/default.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/default.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api/profile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api/posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api/posts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +87,7 @@
       <workItem from="1609300786382" duration="179000" />
       <workItem from="1609301080011" duration="2195000" />
       <workItem from="1609447768346" duration="6054000" />
-      <workItem from="1609655644137" duration="1866000" />
+      <workItem from="1609655644137" duration="4338000" />
     </task>
     <task id="LOCAL-00001" summary="add &amp; update added">
       <created>1605672988086</created>
@@ -102,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609452005210</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="github profile search">
+      <created>1609657574475</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1609657574475</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +132,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="add &amp; update added" />
     <MESSAGE value="profile api done" />
-    <option name="LAST_COMMIT_MESSAGE" value="profile api done" />
+    <MESSAGE value="github profile search" />
+    <option name="LAST_COMMIT_MESSAGE" value="github profile search" />
   </component>
 </project>
