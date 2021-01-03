@@ -10,11 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="650836bc-7f0b-4c69-a686-002711a7b2a7" name="Default Changelist" comment="github profile search">
-      <change afterPath="$PROJECT_DIR$/models/Post.js" afterDir="false" />
+    <list default="true" id="650836bc-7f0b-4c69-a686-002711a7b2a7" name="Default Changelist" comment="add post">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/api/posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api/posts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +43,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../quiz" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -87,7 +88,7 @@
       <workItem from="1609300786382" duration="179000" />
       <workItem from="1609301080011" duration="2195000" />
       <workItem from="1609447768346" duration="6054000" />
-      <workItem from="1609655644137" duration="4338000" />
+      <workItem from="1609655644137" duration="6318000" />
     </task>
     <task id="LOCAL-00001" summary="add &amp; update added">
       <created>1605672988086</created>
@@ -110,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609657574475</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add post">
+      <created>1609660117064</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1609660117064</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +141,7 @@
     <MESSAGE value="add &amp; update added" />
     <MESSAGE value="profile api done" />
     <MESSAGE value="github profile search" />
-    <option name="LAST_COMMIT_MESSAGE" value="github profile search" />
+    <MESSAGE value="add post" />
+    <option name="LAST_COMMIT_MESSAGE" value="add post" />
   </component>
 </project>
