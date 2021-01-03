@@ -4,6 +4,8 @@ const auth = require('../../middleware/auth')
 const {check, validationResult} = require('express-validator')
 const Profile = require("../../models/Profile")
 const User = require("../../models/User")
+const config = require('config')
+const request = require('request')
 
 //get current user profile
 router.get('/me', auth, async (req, res) => {
@@ -188,9 +190,9 @@ router.delete('/experience/:exp_id', auth, async (req, res) => {
     try {
         const profile = await Profile.findOne({user: req.user.id})
         const removeIndex = profile.experience
-            .map(item=>item.id)
+            .map(item => item.id)
             .indexOf(req.params.exp_id)
-        profile.experience.splice(removeIndex,1)
+        profile.experience.splice(removeIndex, 1)
         await profile.save()
         res.json(profile)
     } catch (e) {
@@ -198,7 +200,6 @@ router.delete('/experience/:exp_id', auth, async (req, res) => {
         res.status(500).send('server error')
     }
 })
-
 
 
 // put request to add education
@@ -258,9 +259,9 @@ router.delete('/education/:edu_id', auth, async (req, res) => {
     try {
         const profile = await Profile.findOne({user: req.user.id})
         const removeIndex = profile.education
-            .map(item=>item.id)
+            .map(item => item.id)
             .indexOf(req.params.edu_id)
-        profile.education.splice(removeIndex,1)
+        profile.education.splice(removeIndex, 1)
         await profile.save()
         res.json(profile)
     } catch (e) {
@@ -268,7 +269,50 @@ router.delete('/education/:edu_id', auth, async (req, res) => {
         res.status(500).send('server error')
     }
 })
+// const options = {
+//     uri: encodeURI(
+//         `https://api.github.com/users/${req.params.username}/repos?per_page=5&sort=created:asc`
+//     ),
+//     method: 'GET',
+//     headers: {
+//         'user-agent': 'node.js',
+//         Authorization: `token ${config.get('githubToken')}`
+//     }
+// };
 
+//get github account
+router.get('/github/:username', async (req, res) => {
+    try {
+        // const options = {
+        //     uri:`https:''api.github.com/users/${req.params.username}/repos?per_page=5&sort=created:asc&client_id=${config.get('githubClientId')}&client_secret=${config.get('githubSecret')}`,
+        //     method:'GET',
+        //     headers:{'user-agent':'node.js'}
+        // }
 
+        const options = {
+    uri: encodeURI(
+        `https://api.github.com/users/${req.params.username}/repos?per_page=5&sort=created:asc`
+    ),
+    method: 'GET',
+    headers: {
+        'user-agent': 'node.js'
+    }
+};
+        request(options,(error,response,body)=>{
+            if(error) {
+                console.error(error.message)
+            }
+            if(response.statusCode !==200){
+                res.status(404).json({msg:'No github profile found'})
+            }
+            res.json(JSON.parse(body))
+        })
+    }
+
+     catch (e) {
+        console.error(e.message)
+        res.status(500).send('server error')
+    }
+})
 
 module.exports = router;
